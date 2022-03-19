@@ -1,0 +1,40 @@
+.fade
+{
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    display: none;
+}
+
+.fade1
+{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+.fade2
+{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+}.fade3
+{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}.fade4
+{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+.slide
+{
+    height: 400px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: none;
+}

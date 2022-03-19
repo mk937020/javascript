@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+    </head>
+    <body>
+        <script>
+            
+            var corona="stay home safe home 342342364";
+            var ans1=/[^a-z]/ig;
+
+            
+            var corona2="stay home safe home 9837427357823";
+            var ans2=/[^7]/ig;
+
+            corona3="stay home safe home 3456 $#%#@%^##";
+             ans3=/\W/ig;
+            document.write(corona3.match(ans3)) 
+            
+        </script>
+    </body>
+    </html>

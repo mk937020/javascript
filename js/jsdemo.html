@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery demo</title>
+    <script src="jquery.js" text="text/javascript"></script>
+    <style>
+        button{
+            background-color:pink;
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <p>welcome to jquery</p>
+    <div id="m"> this is id selector</div>
+    <h1 class="h">welcome to jquery class selector</h1>
+    <div id="d"> hey have a nice day</div>
+    <button>hide</button>
+    <button class="mk">show</button>
+    <script>
+        // $('#m').hide();
+        // $('.h').show();
+
+        $(document).ready(function ()
+        {
+            $('button').click(function ()
+           {
+                $('#d').hide();
+            })
+            
+            $('.mk').click(function ()
+           {
+                $('#d').show();
+            })
+            
+        })
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+
+<!doctype html>
+<head>
+
+<!---------------------------------- online CSS / JS --------->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+
+    <button class="btn btn-danger" onclick="row1();">Form</button>
+
+    <p id="f1"></p>
+
+    <p id="f2"></p>
+
+    <p id="f3"></p>
+
+    <p id="f4"></p>
+
+</div>  
+    <script>
+       
+        function row1()
+        {
+            document.getElementById('f1').innerHTML="<br >Name:<input type='text'> &nbsp &nbsp Email:<input type='text'> &nbsp &nbsp Mobile:<input type='mobile'> &nbsp &nbsp <button class='btn btn-success' onclick='row2()'>Add</button> ";
+        }
+
+
+         function row2()
+        {
+            document.getElementById('f2').innerHTML="<br >Gender:<input type='text'> &nbsp &nbsp date:<input type='text'> &nbsp &nbsp blood group:<input type='text'> &nbsp &nbsp <button class='btn btn-danger' onclick='row3()'>Add</button>";
+        } 
+  
+        function row3()
+        {
+            document.getElementById('f3').innerHTML="<br >Course:<input type='text'> &nbsp &nbsp PanNo:<input type='text'> &nbsp &nbsp Address:<input type='text'> &nbsp &nbsp <button class='btn btn-danger' onclick='row4()'>Add</button>";
+        } 
+
+        function row4()
+        {
+            document.getElementById('f4').innerHTML="<br><button class='btn btn-success' onclick='row5()'>Submit</button> ";
+        }
+
+        function row5()
+        {
+            alert("Welcome to js");
+        }
+   
+       </script>
+</body> 
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jquery</title>
+    <script src="jquery.js" type="text/jawascript"></script>
+  </head>
+  <body>
+    <div>this is so<span> beautiful</span> girl</div>
+    <p>it is chocolate day</p>
+    <p>i am <span> free</span> today</p>
+    <div>so i have come in tommarrow</div>
+
+    <script>
+        $(document).ready(function()
+       {
+          $("div,p").has("span").css("color","blue");
+        });
+
+    </script>
+  </body>
+</html>

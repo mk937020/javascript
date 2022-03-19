@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regular Expression</title>
+  </head>
+  <body>
+    <!-- Regular Expression 
+    
+        /pattern/modifier
+    -->
+
+    <script>
+      // var corona="stay home safe home 342342364";
+      // var ans = corona.search("safe");
+      // document.write(ans)
+      // var ans = corona.replace(/HOME/ig,"house");
+      // document.write(ans)
+
+      // var ans = corona.match(/[H]/ig)
+      // document.write(ans)
+
+      var corona = "stay home safe home 342342364";
+      var ans1 = /[^a-z]/gi;
+      // document.write(corona.match(ans1))
+
+      // 0-9
+      var corona2 = "stay home safe home 9837427357823";
+      var ans2 = /[^7]/gi;
+      // document.write(corona.match(ans2))
+
+      // d
+      corona3 = "stay home safe home 3456 $#%#@%^##";
+      ans3 = /\W/gi;
+      document.write(corona3.match(ans3));
+    </script>
+  </body>
+</html>

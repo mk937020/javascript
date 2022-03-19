@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <link rel="stylesheet" href="exter.css">
+    <script src="jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <center><button>fade</button></center>
+    <div class="fade1"> chhagan is very intalegent boy</div>
+    <div class="fade2"> appa is no 1 bullshet guys</div>
+    <div class="fade3"> ashok is very smart boy</div>
+    <div class="fade4"> nana is very bad boy</div>
+    <script>
+
+        $(document).ready(function()
+        {
+         $('button').click(function()
+           {
+              $('.fade1').fadeToggle(2000);
+
+              $('.fade2').fadeToggle(4000);
+
+              $('.fade3').fadeToggle(6000);
+
+              $('.fade4').fadeToggle(8000);
+
+             })
+        })
+    </script>
+
+    
+    
+</body>
+</html>
